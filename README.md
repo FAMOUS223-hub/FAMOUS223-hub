@@ -20,5 +20,7 @@ I’m a Senior Graphic Designer with years of experience transitioning into tech
 
 
 ## Dev Quote
-![Dev Quote](./devquote.png)
+<p align="center">
+  <img src="./devquote.png" alt="Dev Quote" width="400"/>
+</p>
 

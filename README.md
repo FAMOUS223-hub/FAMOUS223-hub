@@ -1,7 +1,19 @@
 # Hi, I'm Amos 👋
 
-## About Me
-I’m a Senior Graphic Designer with years of experience transitioning into tech. Currently building web projects with HTML, CSS, and JavaScript, and preparing to advance into backend development to become a full stack dev.
+## 👨‍💻 About Me
+
+I’m Amos Wuborija Nganbe — a Senior Graphic Designer with over 5 years of experience, now actively transitioning into the tech industry. My journey blends creativity with technology: from crafting polished visuals in Adobe Photoshop and Illustrator to building responsive web projects with HTML, CSS, JavaScript, and Tailwind CSS.
+
+Currently:
+- 🎯 Advancing into JS and also into backend development to become a full stack dev  
+- 💻 Building beginner‑friendly web projects with persistent storage and responsive layouts  
+- 🛠 Troubleshooting devices and exploring Apple ecosystem features  
+- 🚀 Expanding my portfolio to showcase both design and development skills  
+
+My ultimate goal is to land a tech industry role where I can leverage both my creative and technical expertise to build impactful digital experiences.  
+
+Fun fact: I thrive on continuous learning and collaborative problem‑solving — whether it’s polishing UI with SVG icons or debugging code late into the night.
+
 ## Socials
 [![Instagram](https://img.shields.io/badge/Instagram-blue?logo=instagram&logoColor=white)](https://instagram.com/famous_graphics0)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://linkedin.com/in/amos-nganbe)
@@ -13,6 +25,7 @@ I’m a Senior Graphic Designer with years of experience transitioning into tech
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=black)
 ![Adobe Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
 ![Adobe Illustrator](https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)

@@ -20,4 +20,5 @@ I’m a Senior Graphic Designer with years of experience transitioning into tech
 
 
 ## Dev Quote
+![Dev Quote](./devquote.png)
 

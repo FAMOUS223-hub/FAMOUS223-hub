@@ -12,7 +12,7 @@ Currently:
 
 My ultimate goal is to land a tech industry role where I can leverage both my creative and technical expertise to build impactful digital experiences.  
 
-Fun fact: I thrive on continuous learning and collaborative problem‑solving — whether it’s polishing UI with SVG icons or debugging code late into the night.
+Fun fact: I thrive on continuous learning and collaborative problem‑solving, whether it’s polishing UI with SVG icons or debugging code late into the night.
 
 ## Socials
 [![Instagram](https://img.shields.io/badge/Instagram-blue?logo=instagram&logoColor=white)](https://instagram.com/famous_graphics0)

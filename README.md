@@ -2,7 +2,7 @@
 
 ## 👨‍💻 About Me
 
-I’m Amos Wuborija Nganbe — a Senior Graphic Designer with over 5 years of experience, now actively transitioning into the tech industry. My journey blends creativity with technology: from crafting polished visuals in Adobe Photoshop and Illustrator to building responsive web projects with HTML, CSS, JavaScript, and Tailwind CSS.
+I’m Amos Wuborija Nganbe, a Senior Graphic Designer with over 5 years of experience, actively transitioning into the tech industry. My journey blends creativity with technology: from crafting polished visuals in Adobe Photoshop and Illustrator to building responsive web projects with HTML, CSS, JavaScript, and Bootstrap.
 
 Currently:
 - 🎯 Advancing into JS and also into backend development to become a full stack dev  

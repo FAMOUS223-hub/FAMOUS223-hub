@@ -1,5 +1,11 @@
 # Hi, I'm Amos 👋
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+  <img alt="Amos — Full Stack Developer hero banner" src="./dark.svg" width="100%">
+</picture>
+
 ## 👨‍💻 About Me
 
 I’m Amos Wuborija Nganbe, a Senior Graphic Designer with over 5 years of experience, actively transitioning into the tech industry. My journey blends creativity with technology: from crafting polished visuals in Adobe Photoshop and Illustrator to building responsive web projects with HTML, CSS, JavaScript, and Bootstrap.

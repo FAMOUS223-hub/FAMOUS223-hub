@@ -9,7 +9,7 @@
 <br>
 
 <!-- ═══ PROFILE AVATAR ═══ -->
-<img src="https://avatars.githubusercontent.com/FAMOUS223-hub" width="120" style="border-radius:50%; border:3px solid #a855f7; box-shadow: 0 0 20px rgba(168,85,247,0.4);" alt="Amos Nganbe" />
+<img src="./avatar.svg" width="160" alt="Amos Nganbe" />
 
 <br>
 

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAMOUS223 — Amos's GitHub Profile</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0d1117;
+    color: #c9d1d9;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 24px 16px;
+  }
+  .banner-wrap { text-align: center; margin-bottom: 24px; }
+  .banner-wrap img { width: 100%; border-radius: 18px; }
+
+  /* Typing SVG placeholder */
+  .typing-svg { text-align: center; margin: 24px 0; }
+  .typing-svg img { max-width: 1100px; width: 100%; }
+
+  /* Badges */
+  .badges { text-align: center; margin: 16px 0 32px; }
+  .badges img { margin: 3px; }
+
+  /* Section headings */
+  h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #f0f6fc;
+    margin: 32px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #21262d;
+  }
+  h3 {
+    font-size: 1.15em;
+    color: #f0f6fc;
+    margin: 16px 0 8px;
+  }
+
+  /* Terminal box */
+  .terminal-box {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 20px 24px;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 13px;
+    white-space: pre-wrap;
+    color: #c9d1d9;
+    margin: 16px 0;
+    line-height: 1.7;
+  }
+
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+  }
+  td {
+    padding: 16px;
+    vertical-align: top;
+    width: 50%;
+  }
+  td h3 { margin-top: 0; }
+
+  /* Tech stack */
+  .tech-section { text-align: center; margin: 24px 0; }
+  .tech-section h3 { text-align: center; margin-bottom: 12px; }
+  .tech-section img { margin: 3px; }
+  .tech-category { margin-bottom: 16px; }
+  .tech-label {
+    font-size: 0.9em;
+    color: #8b949e;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+
+  /* Stats */
+  .stats-wrap { text-align: center; margin: 24px 0; }
+  .stats-wrap img { max-width: 48%; margin: 4px; }
+  .stats-full { max-width: 70% !important; }
+
+  /* Snake */
+  .snake-wrap { text-align: center; margin: 24px 0; overflow: hidden; }
+  .snake-wrap img { width: 100%; border-radius: 8px; }
+
+  /* Quote */
+  .quote-wrap { text-align: center; margin: 24px 0; }
+  .quote-wrap img { max-width: 400px; border-radius: 8px; }
+
+  /* Projects */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 16px 0;
+  }
+  .project-card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+  .project-card h4 { color: #f0f6fc; margin-bottom: 8px; }
+  .project-card p { color: #8b949e; font-size: 0.9em; margin-bottom: 12px; }
+
+  /* Fun facts */
+  .facts-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+  }
+  .facts-table td {
+    padding: 10px 16px;
+    border: 1px solid #30363d;
+    font-size: 0.95em;
+  }
+  .facts-table td:first-child {
+    width: 40px;
+    text-align: center;
+    font-size: 1.3em;
+  }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 24px 0;
+    border-top: 1px solid #21262d;
+    color: #8b949e;
+  }
+  .footer blockquote {
+    font-style: italic;
+    color: #8b949e;
+    margin-bottom: 16px;
+    font-size: 1.05em;
+  }
+  .footer strong { color: #c9d1d9; }
+
+  hr {
+    border: none;
+    border-top: 1px solid #21262d;
+    margin: 32px 0;
+  }
+
+  /* Responsive */
+  @media (max-width: 700px) {
+    .projects-grid { grid-template-columns: 1fr; }
+    td { display: block; width: 100%; }
+    .stats-wrap img { max-width: 100%; }
+    .stats-full { max-width: 100% !important; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- ═══ BANNER ═══ -->
+  <div class="banner-wrap">
+    <img src="dark.svg" alt="Amos — Full Stack Developer & Creative Designer" />
+  </div>
+
+  <!-- ═══ PROFILE AVATAR ═══ -->
+  <div style="text-align:center; margin-bottom: 20px;">
+    <img src="https://avatars.githubusercontent.com/FAMOUS223-hub" width="120" style="border-radius:50%; border:3px solid #a855f7; box-shadow: 0 0 20px rgba(168,85,247,0.4);" alt="Amos Nganbe" />
+  </div>
+
+  <!-- ═══ TYPING ANIMATION ═══ -->
+  <div style="text-align:center; margin: 24px 0;">
+    <div style="display:inline-block; background:rgba(22,27,34,0.9); border:1px solid #30363d; border-radius:12px; padding:16px 28px; font-family:'Fira Code',Consolas,monospace;">
+      <span id="typing-text" style="font-size:20px; font-weight:600; color:#06B6D4;"></span><span style="display:inline-block; width:2px; height:22px; background:#06B6D4; margin-left:2px; vertical-align:middle; animation:blink 1s infinite;"></span>
+    </div>
+    <style>
+      @keyframes blink { 0%,50%{opacity:1} 51%,100%{opacity:0} }
+      @keyframes typeWriter { from{width:0} to{width:100%} }
+    </style>
+    <script>
+    (function(){
+      var lines = [
+        '🎨 Senior Graphic Designer | Full Stack Developer',
+        'Crafting Pixel-Perfect Interfaces & Clean Code',
+        'Always Learning. Always Building.'
+      ];
+      var el = document.getElementById('typing-text');
+      var lineIdx = 0;
+      function typeLine() {
+        var text = lines[lineIdx];
+        var charIdx = 0;
+        el.textContent = '';
+        var interval = setInterval(function() {
+          el.textContent += text[charIdx];
+          charIdx++;
+          if(charIdx >= text.length) {
+            clearInterval(interval);
+            setTimeout(function() {
+              var delInterval = setInterval(function() {
+                if(el.textContent.length > 0) {
+                  el.textContent = el.textContent.slice(0, -1);
+                } else {
+                  clearInterval(delInterval);
+                  lineIdx = (lineIdx + 1) % lines.length;
+                  typeLine();
+                }
+              }, 30);
+            }, 2000);
+          }
+        }, 50);
+      }
+      typeLine();
+    })();
+    </script>
+  </div>
+
+  <!-- ═══ BADGES ═══ -->
+  <div class="badges">
+    <a href="https://linkedin.com/in/amos-nganbe" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+    <a href="mailto:nganbewuborijaamos@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+    <a href="https://instagram.com/famous_graphics0" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+    <a href="https://github.com/FAMOUS223-hub" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+    <br>
+    <img src="https://komarev.com/ghpvc/?username=FAMOUS223-hub&label=Profile%20Views&color=06B6D4&style=for-the-badge" alt="Profile Views"/>
+    <img src="https://img.shields.io/github/followers/FAMOUS223-hub?label=Followers&style=for-the-badge&color=a855f7" alt="Followers"/>
+  </div>
+
+  <hr>
+
+  <!-- ═══ WHO AM I ═══ -->
+  <h2>👨‍💻 &nbsp;Who Am I?</h2>
+  <div class="terminal-box">┌──────────────────────────────────────────────────────────────────────┐
+│                                                                      │
+│   Hello! I'm Amos Wuborija Nganbe — a creative technologist         │
+│   based in Accra, Ghana 🇬🇭.                                        │
+│                                                                      │
+│   With 5+ years in graphic design (Adobe Suite, Canva) and a        │
+│   growing command of web technologies, I sit at the intersection     │
+│   of visual craft and software engineering.                          │
+│                                                                      │
+│   I build responsive, accessible web experiences and design          │
+│   systems that bridge the gap between aesthetics and functionality.  │
+│                                                                      │
+│   Currently leveling up in JavaScript, React, and backend            │
+│   development to become a well-rounded full stack engineer.          │
+│                                                                      │
+└──────────────────────────────────────────────────────────────────────┘</div>
+
+  <hr>
+
+  <!-- ═══ WHAT I'M WORKING ON ═══ -->
+  <h2>🔥 &nbsp;What I'm Working On</h2>
+  <table>
+    <tr>
+      <td>
+        <h3>🚀 Currently</h3>
+        <ul style="list-style:none; padding:0;">
+          <li>🔭 Building full stack projects with <strong>React</strong> &amp; <strong>Node.js</strong></li>
+          <li>🌱 Learning <strong>backend development</strong> &amp; <strong>database design</strong></li>
+          <li>💡 Exploring <strong>AI/ML</strong> integrations for creative tools</li>
+          <li>🎨 Designing UI/UX for web &amp; mobile applications</li>
+        </ul>
+      </td>
+      <td>
+        <h3>🎯 Goals</h3>
+        <ul style="list-style:none; padding:0;">
+          <li>🏆 Land a <strong>Full Stack Developer</strong> role</li>
+          <li>🌍 Contribute to <strong>open source</strong> projects</li>
+          <li>📚 Master <strong>TypeScript</strong>, <strong>Next.js</strong>, &amp; <strong>PostgreSQL</strong></li>
+          <li>🤝 Build products that solve real-world problems</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <!-- ═══ TECH STACK ═══ -->
+  <h2>🛠️ &nbsp;Tech Stack</h2>
+  <div class="tech-section">
+
+    <div class="tech-category">
+      <div class="tech-label">Frontend</div>
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+      <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap">
+    </div>
+
+    <div class="tech-category">
+      <div class="tech-label">Languages</div>
+      <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
+      <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++">
+    </div>
+
+    <div class="tech-category">
+      <div class="tech-label">Design &amp; Creative</div>
+      <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white" alt="Photoshop">
+      <img src="https://img.shields.io/badge/Illustrator-FF9A00?style=flat-square&logo=adobeillustrator&logoColor=white" alt="Illustrator">
+      <img src="https://img.shields.io/badge/Canva-00C4CC?style=flat-square&logo=canva&logoColor=white" alt="Canva">
+      <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma">
+    </div>
+
+    <div class="tech-category">
+      <div class="tech-label">Tools &amp; Platforms</div>
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+      <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+      <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- ═══ GITHUB STATS ═══ -->
+  <h2>📊 &nbsp;GitHub Stats</h2>
+  <div class="stats-wrap">
+    <img src="https://github-readme-stats.vercel.app/api?username=FAMOUS223-hub&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=06b6d4&icon_color=a855f7&text_color=c9d1d9" alt="GitHub Stats" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+    <div style="display:none; background:#161b22; border:1px solid #30363d; border-radius:8px; padding:20px 40px; margin:4px; color:#8b949e; max-width:420px; text-align:left;">
+      <div style="color:#06b6d4; font-weight:600; margin-bottom:8px;">📊 GitHub Stats</div>
+      <div>⭐ Stars: 0+ &nbsp;|&nbsp; 🍴 Forks: 0+</div>
+      <div style="font-size:12px; margin-top:6px;">Stats will appear when API is available</div>
+    </div>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FAMOUS223-hub&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=06b6d4&text_color=c9d1d9" alt="Top Languages" onerror="this.style.display='none'">
+    <br>
+    <img class="stats-full" src="https://streak-stats.demolab.com/?user=FAMOUS223-hub&theme=tokyonight&hide_border=true&background=0d1117&stroke=06b6d4&ring=a855f7&fire=a855f7&currStreakLabel=22d3ee&sideLabels=c9d1d9" alt="Streak Stats" onerror="this.style.display='none'">
+  </div>
+
+  <hr>
+
+  <!-- ═══ SNAKE ═══ -->
+  <h2>🐍 &nbsp;Contribution Graph</h2>
+  <div class="snake-wrap">
+    <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation">
+  </div>
+
+  <hr>
+
+  <!-- ═══ DEV QUOTE ═══ -->
+  <h2>💡 &nbsp;Random Dev Quote</h2>
+  <div class="quote-wrap">
+    <img src="devquote.png" alt="Dev Quote">
+  </div>
+
+  <hr>
+
+  <!-- ═══ FEATURED PROJECTS ═══ -->
+  <h2>🌟 &nbsp;Featured Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <h4>📁 Project One</h4>
+      <p><em>Coming Soon</em></p>
+      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+    </div>
+    <div class="project-card">
+      <h4>📁 Project Two</h4>
+      <p><em>Coming Soon</em></p>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS">
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
+    </div>
+    <div class="project-card">
+      <h4>📁 Project Three</h4>
+      <p><em>Coming Soon</em></p>
+      <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white" alt="PS">
+      <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- ═══ FUN FACTS ═══ -->
+  <h2>⚡ &nbsp;Fun Facts</h2>
+  <div style="text-align:center; margin-bottom: 8px;">
+    <code style="background:#161b22; padding:4px 12px; border-radius:4px; color:#79c0ff;">$ cat /etc/fun-facts</code>
+  </div>
+  <table class="facts-table">
+    <tr><td>🎨</td><td>I've designed <strong>500+</strong> graphics across social media campaigns</td></tr>
+    <tr><td>💻</td><td>First line of code: <code>Hello, World!</code> in Java — and I was hooked</td></tr>
+    <tr><td>🌍</td><td>I believe in <strong>code without borders</strong> — open to remote opportunities worldwide</td></tr>
+    <tr><td>☕</td><td>Debugging at 2AM runs on pure determination (and caffeine)</td></tr>
+    <tr><td>🎯</td><td>Currently on a mission to bridge the gap between <strong>design &amp; development</strong></td></tr>
+  </table>
+
+  <!-- ═══ FOOTER ═══ -->
+  <div class="footer">
+    <blockquote>"The best interface is no interface — until you build one so good it feels invisible."</blockquote>
+    <br>
+    <img src="https://komarev.com/ghpvc/?username=FAMOUS223-hub&label=Visitors&countColor=%2306b6d4&style=for-the-badge&labelColor=%23a855f7" alt="Visitors">
+    <br><br>
+    <strong>Built with 💜 by Amos</strong> &nbsp;|&nbsp; <em>Always learning. Always shipping.</em>
+  </div>
+
+</div>
+</body>
+</html>
